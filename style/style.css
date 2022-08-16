@@ -1,0 +1,59 @@
+body{
+    background-image: url("https://www.androidsis.com/wp-content/uploads/2009/06/fondo-de-pantalla-juegos-11.jpeg");
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    border-top: solid 1px white;
+    text-transform: uppercase;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+}
+
+.menu{
+    background-color:rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px) contrast(90%) saturate(90%);
+    height: 80vh;
+    width: 50vh;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    align-items:stretch;
+}
+.dimensions{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    font-size: large;
+}
+.color{
+    margin: auto;
+}
+.properties{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+
+
+

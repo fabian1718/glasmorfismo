@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Glasmorfismo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,300&family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="element">
+        </div>
+        <div class="menu">
+           <div class="dimensions">
+            <h2>Dimensions</h2>
+             <div class="color">
+                <label>Color</label>
+                <input type="color">
+             </div>
+             <label>Size</label>
+             <input type="range" class="sliderSize" min="0" max="400" value="10">
+             <label>Border-radius</label>
+             <input type="range" class="sliderRadius" min="0" max="50" value="1">
+             <label>Opacity</label> 
+             <input type="range"  class="sliderOpacity" min="0" max="100" value="1">
+           </div>
+            <div class="properties">
+                <h2>Properties</h2>
+                <label>Blur</label>
+                <input type="range"  class="sliderBlur">
+                <label>Contrast</label>
+                <input type="range"  class="sliderContrast">
+                <label>Sturation</label>
+                <input type="range"  class="sliderSturation" min="0" max="1000" value="10">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./scrip.js"></script>
+</html>
