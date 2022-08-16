@@ -16,7 +16,7 @@ body{
 }
 h2{
     text-align: center;
-    color: white;
+    color: transparent;
     font-size: 30px;
     border-top: solid 1px white;
     text-transform: uppercase;
@@ -101,6 +101,7 @@ h2{
 }
 .color{
     margin: auto;
+    font-size: 30px;
 }
 .properties{
     display: flex;
@@ -129,6 +130,8 @@ h2{
     justify-content: center;
     align-items: center;
 }
+
+
 
 
 
